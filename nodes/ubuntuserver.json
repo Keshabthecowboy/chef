@@ -21,6 +21,94 @@
       "processor": "x86_64",
       "os": "GNU/Linux",
       "modules": {
+        "ip6t_REJECT": {
+          "size": "16384",
+          "refcount": "1"
+        },
+        "nf_reject_ipv6": {
+          "size": "20480",
+          "refcount": "1"
+        },
+        "xt_hl": {
+          "size": "16384",
+          "refcount": "22"
+        },
+        "ip6_tables": {
+          "size": "32768",
+          "refcount": "52"
+        },
+        "ip6t_rt": {
+          "size": "20480",
+          "refcount": "3"
+        },
+        "ipt_REJECT": {
+          "size": "16384",
+          "refcount": "1"
+        },
+        "nf_reject_ipv4": {
+          "size": "16384",
+          "refcount": "1"
+        },
+        "xt_LOG": {
+          "size": "20480",
+          "refcount": "10"
+        },
+        "nf_log_syslog": {
+          "size": "20480",
+          "refcount": "10"
+        },
+        "nft_limit": {
+          "size": "16384",
+          "refcount": "13"
+        },
+        "xt_limit": {
+          "size": "16384",
+          "refcount": "0"
+        },
+        "xt_addrtype": {
+          "size": "16384",
+          "refcount": "4"
+        },
+        "xt_tcpudp": {
+          "size": "20480",
+          "refcount": "20"
+        },
+        "nft_counter": {
+          "size": "16384",
+          "refcount": "172"
+        },
+        "xt_recent": {
+          "size": "24576",
+          "refcount": "0"
+        },
+        "xt_conntrack": {
+          "size": "16384",
+          "refcount": "16"
+        },
+        "nf_conntrack": {
+          "size": "172032",
+          "refcount": "1"
+        },
+        "nf_defrag_ipv6": {
+          "size": "24576",
+          "refcount": "1"
+        },
+        "nf_defrag_ipv4": {
+          "size": "16384",
+          "refcount": "1"
+        },
+        "nft_compat": {
+          "size": "20480",
+          "refcount": "137"
+        },
+        "nf_tables": {
+          "size": "262144",
+          "refcount": "395"
+        },
+        "nfnetlink": {
+          "size": "20480",
+          "refcount": "2"
+        },
         "tls": {
           "size": "114688",
           "refcount": "0"
@@ -97,11 +185,11 @@
         },
         "ip_tables": {
           "size": "32768",
-          "refcount": "0"
+          "refcount": "8"
         },
         "x_tables": {
           "size": "53248",
-          "refcount": "1"
+          "refcount": "13"
         },
         "autofs4": {
           "size": "49152",
@@ -157,7 +245,7 @@
         },
         "libcrc32c": {
           "size": "16384",
-          "refcount": "2"
+          "refcount": "4"
         },
         "raid1": {
           "size": "49152",
@@ -296,6 +384,22 @@
         "version": "3.20191218.1ubuntu2.2",
         "arch": "amd64"
       },
+      "apache2": {
+        "version": "2.4.52-1ubuntu4.7",
+        "arch": "amd64"
+      },
+      "apache2-bin": {
+        "version": "2.4.52-1ubuntu4.7",
+        "arch": "amd64"
+      },
+      "apache2-data": {
+        "version": "2.4.52-1ubuntu4.7",
+        "arch": "all"
+      },
+      "apache2-utils": {
+        "version": "2.4.52-1ubuntu4.7",
+        "arch": "amd64"
+      },
       "apparmor": {
         "version": "3.0.4-2ubuntu2.3",
         "arch": "amd64"
@@ -391,6 +495,10 @@
       "byobu": {
         "version": "5.133-1",
         "arch": "all"
+      },
+      "bzip2": {
+        "version": "1.0.8-5build1",
+        "arch": "amd64"
       },
       "ca-certificates": {
         "version": "20230311ubuntu0.22.04.1",
@@ -810,6 +918,22 @@
       },
       "libappstream4": {
         "version": "0.15.2-2",
+        "arch": "amd64"
+      },
+      "libapr1": {
+        "version": "1.7.0-8ubuntu0.22.04.1",
+        "arch": "amd64"
+      },
+      "libaprutil1": {
+        "version": "1.6.1-5ubuntu4.22.04.2",
+        "arch": "amd64"
+      },
+      "libaprutil1-dbd-sqlite3": {
+        "version": "1.6.1-5ubuntu4.22.04.2",
+        "arch": "amd64"
+      },
+      "libaprutil1-ldap": {
+        "version": "1.6.1-5ubuntu4.22.04.2",
         "arch": "amd64"
       },
       "libapt-pkg6.0": {
@@ -1262,6 +1386,10 @@
       },
       "liblocale-gettext-perl": {
         "version": "1.07-4build3",
+        "arch": "amd64"
+      },
+      "liblua5.3-0": {
+        "version": "5.3.6-1build1",
         "arch": "amd64"
       },
       "liblvm2cmd2.03": {
@@ -1900,6 +2028,10 @@
         "version": "0.5",
         "arch": "all"
       },
+      "mailcap": {
+        "version": "3.70+nmu1ubuntu1",
+        "arch": "all"
+      },
       "man-db": {
         "version": "2.10.2-1",
         "arch": "amd64"
@@ -1918,6 +2050,10 @@
       },
       "media-types": {
         "version": "7.0.0",
+        "arch": "all"
+      },
+      "mime-support": {
+        "version": "3.66",
         "arch": "all"
       },
       "modemmanager": {
@@ -2500,6 +2636,10 @@
         "version": "5.11-0ubuntu1",
         "arch": "all"
       },
+      "ssl-cert": {
+        "version": "1.1.2",
+        "arch": "all"
+      },
       "strace": {
         "version": "5.16-0ubuntu3",
         "arch": "amd64"
@@ -2754,12 +2894,12 @@
         "archname": "x86_64-linux-gnu-thread-multi"
       }
     },
-    "ohai_time": 1703393837.8373022,
+    "ohai_time": 1703396070.204679,
     "memory": {
       "swap": {
-        "cached": "1400kB",
+        "cached": "1816kB",
         "total": "2097148kB",
-        "free": "2095344kB"
+        "free": "2091224kB"
       },
       "hugepages": {
         "total": "0",
@@ -2767,27 +2907,27 @@
         "reserved": "0",
         "surplus": "0"
       },
-      "total": "587944kB",
-      "free": "80076kB",
-      "available": "214804kB",
-      "buffers": "33220kB",
-      "cached": "206644kB",
-      "active": "126660kB",
-      "inactive": "226900kB",
-      "dirty": "140kB",
+      "total": "1345704kB",
+      "free": "598888kB",
+      "available": "812556kB",
+      "buffers": "40812kB",
+      "cached": "354012kB",
+      "active": "258400kB",
+      "inactive": "256852kB",
+      "dirty": "64kB",
       "writeback": "0kB",
-      "anon_pages": "143108kB",
-      "mapped": "85540kB",
-      "slab": "73672kB",
-      "slab_reclaimable": "39804kB",
-      "slab_unreclaim": "33868kB",
-      "page_tables": "2500kB",
+      "anon_pages": "150108kB",
+      "mapped": "99996kB",
+      "slab": "88088kB",
+      "slab_reclaimable": "51332kB",
+      "slab_unreclaim": "36756kB",
+      "page_tables": "3124kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
-      "commit_limit": "2391120kB",
-      "committed_as": "462104kB",
+      "commit_limit": "2770000kB",
+      "committed_as": "940836kB",
       "vmalloc_total": "34359738367kB",
-      "vmalloc_used": "35364kB",
+      "vmalloc_used": "37192kB",
       "vmalloc_chunk": "0kB",
       "hugepage_size": "2048kB"
     },
@@ -2910,16 +3050,16 @@
           "lo": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "10212",
-              "packets": "120",
+              "bytes": "19825",
+              "packets": "218",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "10212",
-              "packets": "120",
+              "bytes": "19825",
+              "packets": "218",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -2928,18 +3068,18 @@
           "eth0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "199586",
-              "packets": "1892",
+              "bytes": "645270",
+              "packets": "6307",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "737403",
-              "packets": "3639",
+              "bytes": "3523763",
+              "packets": "11008",
               "errors": "0",
-              "drop": "24",
+              "drop": "61",
               "overrun": "0"
             }
           }
@@ -2991,12 +3131,12 @@
         },
         "/dev/mapper/ubuntu--vg-ubuntu--lv": {
           "kb_size": "19434128",
-          "kb_used": "6109744",
-          "kb_available": "12311856",
+          "kb_used": "6134188",
+          "kb_available": "12287412",
           "percent_used": "34%",
           "total_inodes": "1245184",
-          "inodes_used": "125073",
-          "inodes_available": "1120111",
+          "inodes_used": "126211",
+          "inodes_available": "1118973",
           "inodes_percent_used": "11%",
           "fs_type": "ext4",
           "mount_options": [
@@ -3447,12 +3587,12 @@
       "by_mountpoint": {
         "/run": {
           "kb_size": "91360",
-          "kb_used": "936",
-          "kb_available": "90424",
+          "kb_used": "960",
+          "kb_available": "90400",
           "percent_used": "2%",
           "total_inodes": "114197",
-          "inodes_used": "675",
-          "inodes_available": "113522",
+          "inodes_used": "686",
+          "inodes_available": "113511",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -3472,12 +3612,12 @@
         },
         "/": {
           "kb_size": "19434128",
-          "kb_used": "6109744",
-          "kb_available": "12311856",
+          "kb_used": "6134188",
+          "kb_available": "12287412",
           "percent_used": "34%",
           "total_inodes": "1245184",
-          "inodes_used": "125073",
-          "inodes_available": "1120111",
+          "inodes_used": "126211",
+          "inodes_available": "1118973",
           "inodes_percent_used": "11%",
           "fs_type": "ext4",
           "mount_options": [
@@ -3517,8 +3657,8 @@
           "kb_available": "5120",
           "percent_used": "0%",
           "total_inodes": "114197",
-          "inodes_used": "3",
-          "inodes_available": "114194",
+          "inodes_used": "4",
+          "inodes_available": "114193",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -3925,13 +4065,13 @@
         "tmpfs,/run": {
           "device": "tmpfs",
           "kb_size": "91360",
-          "kb_used": "936",
-          "kb_available": "90424",
+          "kb_used": "960",
+          "kb_available": "90400",
           "percent_used": "2%",
           "mount": "/run",
           "total_inodes": "114197",
-          "inodes_used": "675",
-          "inodes_available": "113522",
+          "inodes_used": "686",
+          "inodes_available": "113511",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -3949,13 +4089,13 @@
         "/dev/mapper/ubuntu--vg-ubuntu--lv,/": {
           "device": "/dev/mapper/ubuntu--vg-ubuntu--lv",
           "kb_size": "19434128",
-          "kb_used": "6109744",
-          "kb_available": "12311856",
+          "kb_used": "6134188",
+          "kb_available": "12287412",
           "percent_used": "34%",
           "mount": "/",
           "total_inodes": "1245184",
-          "inodes_used": "125073",
-          "inodes_available": "1120111",
+          "inodes_used": "126211",
+          "inodes_available": "1118973",
           "inodes_percent_used": "11%",
           "fs_type": "ext4",
           "mount_options": [
@@ -3993,8 +4133,8 @@
           "percent_used": "0%",
           "mount": "/run/lock",
           "total_inodes": "114197",
-          "inodes_used": "3",
-          "inodes_available": "114194",
+          "inodes_used": "4",
+          "inodes_available": "114193",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -4691,10 +4831,10 @@
         "ohai_root": "/opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/ohai-14.8.10/lib/ohai"
       }
     },
-    "uptime_seconds": 1417,
-    "uptime": "23 minutes 37 seconds",
-    "idletime_seconds": 1330,
-    "idletime": "22 minutes 10 seconds",
+    "uptime_seconds": 3649,
+    "uptime": "1 hours 00 minutes 49 seconds",
+    "idletime_seconds": 3485,
+    "idletime": "58 minutes 05 seconds",
     "cpu": {
       "0": {
         "vendor_id": "GenuineIntel",
@@ -4865,10 +5005,10 @@
       "ULONG_MAX": 18446744073709551615,
       "USHRT_MAX": 65535,
       "WORD_BIT": 32,
-      "_AVPHYS_PAGES": 19081,
+      "_AVPHYS_PAGES": 148916,
       "_NPROCESSORS_CONF": 1,
       "_NPROCESSORS_ONLN": 1,
-      "_PHYS_PAGES": 146986,
+      "_PHYS_PAGES": 336426,
       "_POSIX_ARG_MAX": 2097152,
       "_POSIX_ASYNCHRONOUS_IO": 200809,
       "_POSIX_CHILD_MAX": 3115,
@@ -5362,6 +5502,13 @@
           "uid": 999,
           "shell": "/bin/false",
           "gecos": ""
+        },
+        "Nerdyguy": {
+          "dir": "/home/Nerdyguy",
+          "gid": 1001,
+          "uid": 1001,
+          "shell": "/bin/sh",
+          "gecos": ""
         }
       },
       "group": {
@@ -5713,6 +5860,24 @@
           "members": [
 
           ]
+        },
+        "ssl-cert": {
+          "gid": 119,
+          "members": [
+
+          ]
+        },
+        "Nerdyguy": {
+          "gid": 1001,
+          "members": [
+
+          ]
+        },
+        "DevOps": {
+          "gid": 1002,
+          "members": [
+            "Nerdyguy"
+          ]
         }
       }
     },
@@ -5894,21 +6059,21 @@
     "name": "ubuntuserver",
     "chef_environment": "_default",
     "recipes": [
-      "mycookbook1::recipe1"
+      "mycookbook2::recipe2"
     ],
     "expanded_run_list": [
-      "mycookbook1::recipe1"
+      "mycookbook2::recipe2"
     ],
     "roles": [
 
     ],
     "cookbooks": {
-      "mycookbook1": {
+      "mycookbook2": {
         "version": "0.1.0"
       }
     }
   },
   "run_list": [
-    "recipe[mycookbook1::recipe1]"
+    "recipe[mycookbook2::recipe2]"
   ]
 }
