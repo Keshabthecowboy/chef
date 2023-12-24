@@ -1,0 +1,6 @@
+chefignore
+data_bags
+environments
+LICENSE
+README.md
+.chef-repo.txt
